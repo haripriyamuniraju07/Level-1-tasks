@@ -1,4 +1,4 @@
-#Task 1:
+# Task 1:
 
 # Allen Key (Hex Key)
 
@@ -25,7 +25,7 @@ Furniture assembly, bicycles, machinery and 3D printers.
 The Allen key is a simple tool that transfers torque efficiently through its hexagonal shape and L-bend.
 ![Allen key model](images/allen.png)
 
-#Task 2:
+# Task 2:
 
 # Spur Gear:
 
@@ -134,7 +134,7 @@ Ways to improve strength and durability:
 
 Spur gears are simple, efficient, and widely used for power transmission between parallel shafts. For the designed pair (Z₁ = 20, Z₂ = 40, m = 3 mm, α = 20°), the gear ratio is 2:1 with a centre distance of 90 mm. Correct selection of module, tooth count, material, and lubrication ensures good strength and a long service life.
 
-#Task 3:
+# Task 3:
 
 
 # Bodies vs Components
