@@ -168,3 +168,57 @@ Solid / Sculpt / Mesh
 - **Mesh body** → imported, limited mmanner
 
 # Task 4:
+
+# Simple Slider Mechanism
+
+## 1. Introduction
+A simple slider mechanism converts motion between two forms. A rotating or swinging input drives a block (the slider) to move back and forth along a fixed straight path. The slider and the guide form a **prismatic (sliding) pair**, which allows motion along one axis only.
+
+## 2. Main Components
+| Part | Function |
+|---|---|
+| Frame / guide | Fixed part that constrains the slider to a straight path |
+| Slider | Block that moves back and forth along the guide |
+| Crank | Rotating link that provides the input motion |
+| Connecting rod | Links the crank to the slider and transmits force |
+
+## 3. Working Principle
+1. The crank rotates about a fixed pivot.
+2. The connecting rod transfers this motion to the slider.
+3. The guide allows only linear movement, so the slider travels back and forth.
+4. The slider reaches its extreme positions at the **inner dead centre** and the **outer dead centre**, where its velocity is momentarily zero.
+5. The stroke length equals twice the crank radius (2r).
+
+## 4. Degrees of Freedom
+- The mechanism has **1 degree of freedom**: one input (crank angle) fixes the position of every part.
+- Sliding pairs remove all motion except translation along one axis.
+
+## 5. Types
+- **Single slider crank chain**: used in engines and compressors
+- **Double slider crank chain**: used in the Scotch yoke and Oldham's coupling
+- **Scotch yoke**: gives pure sinusoidal slider motion
+
+## 6. Applications
+- Internal combustion engines (piston and cylinder)
+- Reciprocating pumps and compressors
+- Shaper machines and punching presses
+- Drawer slides and sliding doors
+- 3D printer and CNC linear axes
+
+## 7. Advantages and Limitations
+**Advantages**
+- Simple design that is easy to manufacture
+- Reliable conversion between rotary and linear motion
+- Compact for the force it transmits
+
+**Limitations**
+- Friction and wear between the slider and guide
+- Needs lubrication
+- Speed is not uniform, causing vibration at high speeds
+- Side thrust on the guide
+
+## 8. Modelling in CAD
+In Fusion 360, make each moving part a **component**, not a body, so that joints can be applied. A **slider joint** between the block and the guide gives the sliding pair, and a **revolute joint** at the crank pivot gives the rotation.
+
+## 9. Conclusion
+The simple slider mechanism is a basic building block in machine design. It is used wherever controlled linear motion or rotary-to-linear conversion is needed.
