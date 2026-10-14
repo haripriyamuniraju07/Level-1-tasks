@@ -21,4 +21,4 @@ Furniture assembly, bicycles, machinery and 3D printers.
 
 ## Conclusion
 The Allen key is a simple tool that transfers torque efficiently through its hexagonal shape and L-bend.
-![Allen key model](images/allen-key.png)
+![Allen key model](images/allen.png)
