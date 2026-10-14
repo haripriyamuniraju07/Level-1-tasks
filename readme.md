@@ -1,3 +1,5 @@
+#Task 1:
+
 # Allen Key (Hex Key)
 
 ## What it is?
@@ -22,7 +24,10 @@ Furniture assembly, bicycles, machinery and 3D printers.
 ## Conclusion
 The Allen key is a simple tool that transfers torque efficiently through its hexagonal shape and L-bend.
 ![Allen key model](images/allen.png)
-# Spur Gear Design Report
+
+#Task 2:
+
+# Spur Gear:
 
 ## 1. Introduction
 
@@ -128,3 +133,38 @@ Ways to improve strength and durability:
 ## 8. Conclusion
 
 Spur gears are simple, efficient, and widely used for power transmission between parallel shafts. For the designed pair (Z₁ = 20, Z₂ = 40, m = 3 mm, α = 20°), the gear ratio is 2:1 with a centre distance of 90 mm. Correct selection of module, tooth count, material, and lubrication ensures good strength and a long service life.
+
+#Task 3:
+
+
+# Bodies vs Components
+
+## Design Approaches
+
+| Top Down | Bottom Up |
+|---|---|
+| Fusion 360 | SolidWorks, Autodesk Inventor |
+| You create parts within the assembly | You design the parts first, then assemble them |
+| If you change one thing, the others change accordingly | If you change one part, other parts might get affected |
+
+## Bodies vs Components
+
+| **Bodies** (Cylinder) | **Components** (Cube) |
+|---|---|
+| Used with modeling tools | Used for manufactured parts |
+| Example: bottle | Example: hinge |
+| You can't copy them | You can copy them |
+| Don't show in the part list | Show in the part list |
+| Independent of the parent | Dependent on the parent |
+| You can create a new component from a body | You can't create a new component from a component |
+
+## Types of Bodies
+
+Solid / Sculpt / Mesh
+
+- **Surface** → only the outer side → yellow face
+- **Solid** → normal
+- **T-spline** → explore shapes, purple
+- **Mesh body** → imported, limited mmanner
+
+# Task 4:
