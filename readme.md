@@ -25,6 +25,38 @@ Furniture assembly, bicycles, machinery and 3D printers.
 The Allen key is a simple tool that transfers torque efficiently through its hexagonal shape and L-bend.
 ![Allen key model](images/allen.png)
 
+# Task 3:
+# Design of a NACA Aerofoil for an HTOL Aircraft Using Fusion 360
+
+## Aim
+To design a simple NACA aerofoil for a Horizontal Take-Off and Landing (HTOL) aircraft using Autodesk Fusion 360 and an Airfoil Generator add-in, and to understand aerofoil nomenclature and its basic geometric features.
+
+## Introduction
+An aerofoil is a shaped surface designed to generate lift when air flows around it. It is an essential component of an aircraft wing and influences lift, drag and stall characteristics. In this project, a NACA 2412 aerofoil is generated and modelled using Fusion 360.
+
+##  NACA Aerofoil Nomenclature
+NACA 2412 is a four-digit aerofoil profile.
+
+- **First digit (2):** Maximum camber is 2% of the chord length.
+- **Second digit (4):** Maximum camber occurs at 40% of the chord length from the leading edge.
+- **Last two digits (12):** Maximum thickness is 12% of the chord length.
+
+For a chord length of 100 mm, the maximum camber is 2 mm and the maximum thickness is 12 mm.
+
+##  Basic Parts of an Aerofoil
+- **Leading Edge:** The front edge of the aerofoil that first encounters the airflow.
+- **Trailing Edge:** The rear edge where the upper and lower surfaces meet.
+- **Chord Line:** The straight line connecting the leading and trailing edges.
+- **Camber Line:** The curve midway between the upper and lower aerofoil surfaces.
+- **Maximum Camber:** The greatest distance between the camber line and chord line.
+- **Thickness:** The distance between the upper and lower surfaces.
+
+## Result
+A NACA 2412 aerofoil profile was generated using the Airfoil Generator add-in in Fusion 360 and converted into a basic 3D wing section.
+
+##  Conclusion
+This project provided an understanding of NACA aerofoil nomenclature and the basic geometric features of an aerofoil, including the leading edge, trailing edge, chord line, camber line and thickness. It also introduced the use of Fusion 360 add-ins for generating aerofoil profiles and creating simple 3D wing geometry.
+
 # Task 2:
 
 # Spur Gear:
