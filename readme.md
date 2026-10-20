@@ -97,10 +97,10 @@ The Sheet Metal workspace simplifies the design of thin metal components and hel
 
 # Task 5:
 
-# Design of a Hollow Vase Using Forms in Fusion 360
+# Design of a Vase Using Forms in Fusion 360
 
 ## Aim
-To design a hollow vase using the Forms feature in Autodesk Fusion 360.
+To design a vase using the Forms feature in Autodesk Fusion 360.
 
 ## Introduction
 The Forms feature in Fusion 360 allows the creation of organic and freeform shapes using T-Spline modelling. It is useful for designing objects with smooth curves, such as vases, bowls and decorative products.
@@ -110,12 +110,13 @@ The Forms feature in Fusion 360 allows the creation of organic and freeform shap
 - Product and industrial design.
 
 ## Result
-A hollow vase with a smooth, curved surface was designed using the Forms feature in Fusion 360.
+A vase with a smooth, curved surface was designed using the Forms feature in Fusion 360.
 
 ## Conclusion
 The Forms workspace enables the creation of complex organic shapes through flexible face, edge and vertex editing. It is useful for developing creative product designs and preparing models for 3D printing.
 
 ![vase](vase.png)
+![vase](vase1.png)
 
 # Task 6:
 
@@ -206,6 +207,7 @@ In Fusion 360, make each moving part a **component**, not a body, so that joints
 The simple slider mechanism is a basic building block in machine design. It is used wherever controlled linear motion or rotary-to-linear conversion is needed.
 
 ![mech](mech.png)
+![mech](mech1.png)
 
 # Task 8:
 
