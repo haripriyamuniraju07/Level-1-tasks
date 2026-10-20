@@ -57,6 +57,8 @@ A NACA 2412 aerofoil profile was generated using the Airfoil Generator add-in in
 ##  Conclusion
 This project provided an understanding of NACA aerofoil nomenclature and the basic geometric features of an aerofoil, including the leading edge, trailing edge, chord line, camber line and thickness. It also introduced the use of Fusion 360 add-ins for generating aerofoil profiles and creating simple 3D wing geometry.
 
+![Aerol](images/Aero.png)
+
 # Task 2:
 
 # Spur Gear:
