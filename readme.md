@@ -254,46 +254,7 @@ $$
 | Pressure angle, α | 20° |
 | Material | Steel |
 
-## 6. Design Calculations
-
-**Gear ratio**
-
-$$
-i = \frac{Z_2}{Z_1} = \frac{40}{20} = 2
-$$
-
-**Pitch circle diameter** ($d = mZ$)
-
-- Pinion: $d_1 = 3 \times 20 = 60$ mm
-- Gear: $d_2 = 3 \times 40 = 120$ mm
-
-**Centre distance**
-
-$$
-a = \frac{d_1 + d_2}{2} = \frac{60 + 120}{2} = 90 \text{ mm}
-$$
-
-**Other tooth dimensions** (standard full-depth 20° system)
-
-| Quantity | Formula | Pinion | Gear |
-|---|---|---|---|
-| Addendum | $h_a = m$ | 3 mm | 3 mm |
-| Dedendum | $h_f = 1.25m$ | 3.75 mm | 3.75 mm |
-| Whole depth | $h = 2.25m$ | 6.75 mm | 6.75 mm |
-| Outside diameter | $d_a = m(Z+2)$ | 66 mm | 126 mm |
-| Root diameter | $d_f = m(Z-2.5)$ | 52.5 mm | 112.5 mm |
-| Base circle diameter | $d_b = d\cos\alpha$ | 56.38 mm | 112.76 mm |
-| Circular pitch | $p = \pi m$ | 9.42 mm | 9.42 mm |
-
-**Speed relation**
-
-$$
-N_2 = \frac{N_1}{i} = \frac{N_1}{2}
-$$
-
-The output gear turns at half the input speed and, ignoring losses, delivers twice the input torque.
-
-## 7. Gear Strength and Durability
+## 6. Gear Strength and Durability
 
 A gear must resist two main kinds of failure:
 
@@ -314,7 +275,7 @@ Ways to improve strength and durability:
 - Provide proper lubrication and keep the lubricant clean
 - Maintain accurate alignment and correct centre distance
 
-## 8. Conclusion
+## 7. Conclusion
 
 Spur gears are simple, efficient, and widely used for power transmission between parallel shafts. For the designed pair (Z₁ = 20, Z₂ = 40, m = 3 mm, α = 20°), the gear ratio is 2:1 with a centre distance of 90 mm. Correct selection of module, tooth count, material, and lubrication ensures good strength and a long service life.
 
