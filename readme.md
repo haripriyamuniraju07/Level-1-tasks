@@ -23,7 +23,7 @@ Furniture assembly, bicycles, machinery and 3D printers.
 
 ## Conclusion
 The Allen key is a simple tool that transfers torque efficiently through its hexagonal shape and L-bend.
-![Allen key model](images/allen.png)
+![Allen key model](allen.png)
 
 # Task 3:
 # Design of a NACA Aerofoil for an HTOL Aircraft Using Fusion 360
@@ -57,7 +57,7 @@ A NACA 2412 aerofoil profile was generated using the Airfoil Generator add-in in
 ##  Conclusion
 This project provided an understanding of NACA aerofoil nomenclature and the basic geometric features of an aerofoil, including the leading edge, trailing edge, chord line, camber line and thickness. It also introduced the use of Fusion 360 add-ins for generating aerofoil profiles and creating simple 3D wing geometry.
 
-![Aerol](images/Aero.png)
+![Aero](Aero.png)
 
 # Task 2:
 
