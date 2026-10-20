@@ -59,7 +59,155 @@ This project provided an understanding of NACA aerofoil nomenclature and the bas
 
 ![Aero](Aero.png)
 
-# Task 2:
+# Task 4:
+
+# Sheet Metal in Fusion 360
+
+## Aim
+To understand sheet metal design and its applications using Autodesk Fusion 360.
+
+## Introduction
+Sheet metal is thin, flat metal shaped through cutting, bending and folding. Fusion 360 provides tools to design sheet metal components accurately and prepare them for manufacturing.
+
+## Why Do We Use Sheet Metal?
+- To create accurate bends and flanges.
+- To maintain uniform material thickness.
+- To generate flat patterns for manufacturing.
+- To reduce material wastage and errors.
+
+## Important Tools
+- **Flange:** Creates walls along sheet edges.
+- **Bend:** Adds bends to sheet metal.
+- **Contour Flange:** Creates shapes along a sketch profile.
+- **Flat Pattern:** Unfolds the model into a flat sheet.
+
+## Applications
+- Aircraft panels and brackets.
+- Automobile body panels.
+- Electrical enclosures.
+- Machine covers and HVAC ducts.
+
+## Result
+Sheet metal tools in Fusion 360 can create components with accurate bends and flat patterns.
+
+## Conclusion
+The Sheet Metal workspace simplifies the design of thin metal components and helps prepare them for manufacturing with improved accuracy and reduced material wastage.
+
+![post](post.png)
+
+# Task 5:
+
+# Design of a Hollow Vase Using Forms in Fusion 360
+
+## Aim
+To design a hollow vase using the Forms feature in Autodesk Fusion 360.
+
+## Introduction
+The Forms feature in Fusion 360 allows the creation of organic and freeform shapes using T-Spline modelling. It is useful for designing objects with smooth curves, such as vases, bowls and decorative products.
+
+## Applications
+- Decorative vases and home accessories.
+- Product and industrial design.
+
+## Result
+A hollow vase with a smooth, curved surface was designed using the Forms feature in Fusion 360.
+
+## Conclusion
+The Forms workspace enables the creation of complex organic shapes through flexible face, edge and vertex editing. It is useful for developing creative product designs and preparing models for 3D printing.
+
+![vase](vase.png)
+
+# Task 6:
+
+# Bodies vs Components
+
+## Design Approaches
+
+| Top Down | Bottom Up |
+|---|---|
+| Fusion 360 | SolidWorks, Autodesk Inventor |
+| You create parts within the assembly | You design the parts first, then assemble them |
+| If you change one thing, the others change accordingly | If you change one part, other parts might get affected |
+
+## Bodies vs Components
+
+| **Bodies** (Cylinder) | **Components** (Cube) |
+|---|---|
+| Used with modeling tools | Used for manufactured parts |
+| Example: bottle | Example: hinge |
+| You can't copy them | You can copy them |
+| Don't show in the part list | Show in the part list |
+| Independent of the parent | Dependent on the parent |
+| You can create a new component from a body | You can't create a new component from a component |
+
+## Types of Bodies
+
+Solid / Sculpt / Mesh
+
+- **Surface** → only the outer side → yellow face
+- **Solid** → normal
+- **T-spline** → explore shapes, purple
+- **Mesh body** → imported, limited mmanner
+
+# Task 7:
+
+# Simple Slider Mechanism
+
+## 1. Introduction
+A simple slider mechanism converts motion between two forms. A rotating or swinging input drives a block (the slider) to move back and forth along a fixed straight path. The slider and the guide form a **prismatic (sliding) pair**, which allows motion along one axis only.
+
+## 2. Main Components
+| Part | Function |
+|---|---|
+| Frame / guide | Fixed part that constrains the slider to a straight path |
+| Slider | Block that moves back and forth along the guide |
+| Crank | Rotating link that provides the input motion |
+| Connecting rod | Links the crank to the slider and transmits force |
+
+## 3. Working Principle
+1. The crank rotates about a fixed pivot.
+2. The connecting rod transfers this motion to the slider.
+3. The guide allows only linear movement, so the slider travels back and forth.
+4. The slider reaches its extreme positions at the **inner dead centre** and the **outer dead centre**, where its velocity is momentarily zero.
+5. The stroke length equals twice the crank radius (2r).
+
+## 4. Degrees of Freedom
+- The mechanism has **1 degree of freedom**: one input (crank angle) fixes the position of every part.
+- Sliding pairs remove all motion except translation along one axis.
+
+## 5. Types
+- **Single slider crank chain**: used in engines and compressors
+- **Double slider crank chain**: used in the Scotch yoke and Oldham's coupling
+- **Scotch yoke**: gives pure sinusoidal slider motion
+
+## 6. Applications
+- Internal combustion engines (piston and cylinder)
+- Reciprocating pumps and compressors
+- Shaper machines and punching presses
+- Drawer slides and sliding doors
+- 3D printer and CNC linear axes
+
+## 7. Advantages and Limitations
+**Advantages**
+- Simple design that is easy to manufacture
+- Reliable conversion between rotary and linear motion
+- Compact for the force it transmits
+
+**Limitations**
+- Friction and wear between the slider and guide
+- Needs lubrication
+- Speed is not uniform, causing vibration at high speeds
+- Side thrust on the guide
+
+## 8. Modelling in CAD
+In Fusion 360, make each moving part a **component**, not a body, so that joints can be applied. A **slider joint** between the block and the guide gives the sliding pair, and a **revolute joint** at the crank pivot gives the rotation.
+
+## 9. Conclusion
+The simple slider mechanism is a basic building block in machine design. It is used wherever controlled linear motion or rotary-to-linear conversion is needed.
+
+![mech](mech.png)
+
+# Task 8:
 
 # Spur Gear:
 
@@ -168,91 +316,5 @@ Ways to improve strength and durability:
 
 Spur gears are simple, efficient, and widely used for power transmission between parallel shafts. For the designed pair (Z₁ = 20, Z₂ = 40, m = 3 mm, α = 20°), the gear ratio is 2:1 with a centre distance of 90 mm. Correct selection of module, tooth count, material, and lubrication ensures good strength and a long service life.
 
-# Task 3:
+![spur](spur.png)
 
-
-# Bodies vs Components
-
-## Design Approaches
-
-| Top Down | Bottom Up |
-|---|---|
-| Fusion 360 | SolidWorks, Autodesk Inventor |
-| You create parts within the assembly | You design the parts first, then assemble them |
-| If you change one thing, the others change accordingly | If you change one part, other parts might get affected |
-
-## Bodies vs Components
-
-| **Bodies** (Cylinder) | **Components** (Cube) |
-|---|---|
-| Used with modeling tools | Used for manufactured parts |
-| Example: bottle | Example: hinge |
-| You can't copy them | You can copy them |
-| Don't show in the part list | Show in the part list |
-| Independent of the parent | Dependent on the parent |
-| You can create a new component from a body | You can't create a new component from a component |
-
-## Types of Bodies
-
-Solid / Sculpt / Mesh
-
-- **Surface** → only the outer side → yellow face
-- **Solid** → normal
-- **T-spline** → explore shapes, purple
-- **Mesh body** → imported, limited mmanner
-
-# Task 4:
-
-# Simple Slider Mechanism
-
-## 1. Introduction
-A simple slider mechanism converts motion between two forms. A rotating or swinging input drives a block (the slider) to move back and forth along a fixed straight path. The slider and the guide form a **prismatic (sliding) pair**, which allows motion along one axis only.
-
-## 2. Main Components
-| Part | Function |
-|---|---|
-| Frame / guide | Fixed part that constrains the slider to a straight path |
-| Slider | Block that moves back and forth along the guide |
-| Crank | Rotating link that provides the input motion |
-| Connecting rod | Links the crank to the slider and transmits force |
-
-## 3. Working Principle
-1. The crank rotates about a fixed pivot.
-2. The connecting rod transfers this motion to the slider.
-3. The guide allows only linear movement, so the slider travels back and forth.
-4. The slider reaches its extreme positions at the **inner dead centre** and the **outer dead centre**, where its velocity is momentarily zero.
-5. The stroke length equals twice the crank radius (2r).
-
-## 4. Degrees of Freedom
-- The mechanism has **1 degree of freedom**: one input (crank angle) fixes the position of every part.
-- Sliding pairs remove all motion except translation along one axis.
-
-## 5. Types
-- **Single slider crank chain**: used in engines and compressors
-- **Double slider crank chain**: used in the Scotch yoke and Oldham's coupling
-- **Scotch yoke**: gives pure sinusoidal slider motion
-
-## 6. Applications
-- Internal combustion engines (piston and cylinder)
-- Reciprocating pumps and compressors
-- Shaper machines and punching presses
-- Drawer slides and sliding doors
-- 3D printer and CNC linear axes
-
-## 7. Advantages and Limitations
-**Advantages**
-- Simple design that is easy to manufacture
-- Reliable conversion between rotary and linear motion
-- Compact for the force it transmits
-
-**Limitations**
-- Friction and wear between the slider and guide
-- Needs lubrication
-- Speed is not uniform, causing vibration at high speeds
-- Side thrust on the guide
-
-## 8. Modelling in CAD
-In Fusion 360, make each moving part a **component**, not a body, so that joints can be applied. A **slider joint** between the block and the guide gives the sliding pair, and a **revolute joint** at the crank pivot gives the rotation.
-
-## 9. Conclusion
-The simple slider mechanism is a basic building block in machine design. It is used wherever controlled linear motion or rotary-to-linear conversion is needed.
