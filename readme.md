@@ -24,6 +24,10 @@ Furniture assembly, bicycles, machinery and 3D printers.
 ## Conclusion
 The Allen key is a simple tool that transfers torque efficiently through its hexagonal shape and L-bend.
 ![Allen key model](allen.png)
+# Task 2:
+![pt1](pt1.png)
+![pt2](pt2.png)
+![pt3](pt3.png)
 
 # Task 3:
 # Design of a NACA Aerofoil for an HTOL Aircraft Using Fusion 360
